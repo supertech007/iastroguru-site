@@ -1,0 +1,25 @@
+:root{--night:#12101d;--night-2:#1c1830;--line:#3a3354;--text:#ece6f5;--muted:#b5abc8;--gold:#d9b577;--gold-soft:#f6e2b8}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#2a2147 0,transparent 60%),var(--night);color:var(--text);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--gold-soft)}a:hover{color:var(--gold)}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;line-height:1.15;color:var(--gold-soft)}
+h1{font-size:clamp(34px,6vw,56px);margin:.2em 0 .4em}h2{font-size:26px;margin:1.6em 0 .6em}h3{font-size:20px;margin:0 0 .4em}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:1040px;margin:auto;padding:18px 16px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font:600 26px Georgia,serif;color:var(--gold-soft)}
+.top nav{display:flex;gap:20px}.top nav a{text-decoration:none}
+main{max-width:1040px;margin:auto;padding:16px 16px 64px}
+.eyebrow{text-transform:uppercase;letter-spacing:1.5px;font-size:12px;color:var(--gold)}
+.lead{font-size:19px;color:var(--muted);max-width:700px}.muted{color:var(--muted)}
+.notice{border-left:3px solid var(--gold);background:var(--night-2);padding:14px 18px;font-weight:600}
+.hero{padding:24px 0 8px}
+.tools{columns:3 200px;padding-left:20px}
+.cards{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.cards a{display:flex;flex-direction:column;height:100%;padding:20px;border:1px solid var(--line);border-radius:10px;background:var(--night-2);text-decoration:none;color:var(--text)}
+.cards a:hover{border-color:var(--gold)}.cards p{margin:.3em 0;font-size:15px}
+.price{margin-top:auto;padding-top:8px;font-size:20px;color:var(--gold-soft)}.price s{color:var(--muted);font-size:15px;margin-left:6px}
+.offer{display:block;font-size:13px;color:var(--gold)}
+.buy{padding:16px 20px;border:1px solid var(--line);border-radius:10px;background:var(--night-2);max-width:420px}.buy p{margin:.4em 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;padding:12px 0;border-block:1px solid var(--line)}
+.prose{max-width:760px}.prose li,.prose p{color:var(--text)}.prose dt{color:var(--gold);margin-top:8px}.prose dd{margin-left:0}
+footer{border-top:1px solid var(--line);max-width:1040px;margin:auto;padding:24px 16px 40px;font-size:14px;color:var(--muted)}
+footer nav{display:flex;flex-wrap:wrap;gap:8px 20px;margin-bottom:12px}
