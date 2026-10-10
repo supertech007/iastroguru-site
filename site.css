@@ -16,9 +16,7 @@ main{max-width:1040px;margin:auto;padding:16px 16px 64px}
 .cards{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
 .cards a{display:flex;flex-direction:column;height:100%;padding:20px;border:1px solid var(--line);border-radius:10px;background:var(--night-2);text-decoration:none;color:var(--text)}
 .cards a:hover{border-color:var(--gold)}.cards p{margin:.3em 0;font-size:15px}
-.price{margin-top:auto;padding-top:8px;font-size:20px;color:var(--gold-soft)}.price s{color:var(--muted);font-size:15px;margin-left:6px}
-.offer{display:block;font-size:13px;color:var(--gold)}
-.buy{padding:16px 20px;border:1px solid var(--line);border-radius:10px;background:var(--night-2);max-width:420px}.buy p{margin:.4em 0 0}
+.availability{display:block;margin-top:auto;padding-top:8px;font-size:18px;color:var(--gold-soft)}
 .toc{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;padding:12px 0;border-block:1px solid var(--line)}
 .prose{max-width:760px}.prose li,.prose p{color:var(--text)}.prose dt{color:var(--gold);margin-top:8px}.prose dd{margin-left:0}
 footer{border-top:1px solid var(--line);max-width:1040px;margin:auto;padding:24px 16px 40px;font-size:14px;color:var(--muted)}
